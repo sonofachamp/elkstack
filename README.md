@@ -4,7 +4,7 @@ A sample docker-compose configuration to run ElasicSearch and Kibana locally. Al
 
 `docker-compose up`
 
-Hit http://localhost:8080/ or run `curl http://localhost:8080/ a couple times to have the NGINX container generate and ship some logs to Elasticsearch.
+Hit http://localhost:8080/ or run `curl http://localhost:8080/` a couple times to have the NGINX container generate and ship some logs to Elasticsearch.
 
 Visit http://localhost:5601 in your browser to view the Kibana dashboard.
 
